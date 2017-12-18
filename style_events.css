@@ -1,0 +1,365 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#allezvoirpage{
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:link{
+	color: black;
+}
+
+a:visited{
+	color: #2c2c2c;
+}
+
+
+h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+header{ 
+width: 100%;
+margin: auto;
+background-color: black;
+}
+
+#contenu{
+	display: flex;
+	justify-content: space-between;
+	height: auto;
+}
+
+ nav{
+ 	width: 15%;
+ 	border: 0px solid black;
+ 	margin-top: 30px;
+ 	height: auto;
+
+ 	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color: black;
+	font-size: 1.1em;
+
+	position: fixed;
+ }
+
+ #pdp{
+ 	width: 60%;
+ 	border: 0px solid black;
+ 	margin: auto;
+	display: block;
+ }
+
+ ul{
+ 	 border: 0px solid black;
+ 	 text-align: center;
+ 	 padding: 5%;
+ }
+
+ li{
+ 	border: 0px solid black;
+ 	padding: 4%;
+ }
+
+ #selected{
+ 	color: #5d5d5d;
+ 	font-weight: bold;
+ }
+
+ #barrenav{
+ 	width: 3.9%;
+ 	margin-top: -173%;
+ 	margin-left: 90%;
+ 	border: 0px solid black;
+ }
+
+ #events{
+ 	border: 0px solid black;
+ 	width: 84%;
+ 	margin: auto;
+ 	margin-top: 30px;
+ }
+
+  #titreevents{
+ 	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 2.5em;
+	text-align: left;
+	margin-left: 15%;
+	padding-bottom: 1%;
+ }
+
+ article{
+	border: 0px solid black;
+ 	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color: black;
+	font-size: 0.95em;
+	padding-top: 2.5%;
+}
+
+#bold{
+	font-weight: bold;
+}
+
+#fondevent1{
+	width: 70.2%;
+	display: block;
+	margin: auto;
+}
+
+#photoevent1{
+ 	display: block;
+	margin: auto;
+	width: 70.2%;
+	margin-top: -14%
+}
+
+#titreevent1{
+ 	border: 0px solid black;
+	width: 70.2%;
+	text-align: center;
+	margin: auto;
+	margin-left: 6%;
+	transform: translateY(-720%);
+	font-size: 1.1em;
+}
+
+#auteurevent1{
+ 	border: 0px solid black;
+	width: 70.2%;
+	text-align: center;
+	margin: auto;
+	margin-left: -0.5%;
+	transform: translateY(-840%);
+	font-size: 0.9em;
+}
+
+#etoilesevent1{
+ 	display: block;
+	width: 70.2%;
+	margin-top: -16.8%;
+	margin-left: 14.4%;
+}
+
+#pevent1{
+	border: 0px solid black;
+	width: 55%;
+	text-align: left;
+	margin: auto;
+	margin-left: 25.5%;
+	transform: translateY(-149%)
+}
+
+#fondevent2{
+	width: 70.2%;
+	display: block;
+	margin: auto;
+}
+
+#photoevent2{
+ 	display: block;
+	margin: auto;
+	width: 70.2%;
+	margin-top: -15.7%
+}
+
+#titreevent2{
+ 	border: 0px solid black;
+	width: 70.2%;
+	text-align: center;
+	margin: auto;
+	margin-left: 4.6%;
+	transform: translateY(-720%);
+	font-size: 1.1em;
+}
+
+#auteurevent2{
+ 	border: 0px solid black;
+	width: 70.2%;
+	text-align: center;
+	margin: auto;
+	margin-left: 2.5%;
+	transform: translateY(-840%);
+	font-size: 0.9em;
+}
+
+#etoilesevent2{
+ 	display: block;
+	width: 70.2%;
+	margin-top: -16.8%;
+	margin-left: 14.4%;
+}
+
+#pevent2{
+	border: 0px solid black;
+	width: 55%;
+	text-align: left;
+	margin: auto;
+	margin-left: 25.5%;
+	transform: translateY(-110%)
+}
+
+#fondevent3{
+	width: 70.2%;
+	display: block;
+	margin: auto;
+}
+
+#photoevent3{
+ 	display: block;
+	margin: auto;
+	width: 70.2%;
+	margin-top: -17.1%
+}
+
+#titreevent3{
+ 	border: 0px solid black;
+	width: 70.2%;
+	text-align: center;
+	margin: auto;
+	margin-left: 10%;
+	transform: translateY(-720%);
+	font-size: 1.1em;
+}
+
+#auteurevent3{
+ 	border: 0px solid black;
+	width: 70.2%;
+	text-align: center;
+	margin: auto;
+	margin-left: -2.2%;
+	transform: translateY(-840%);
+	font-size: 0.9em;
+}
+
+#etoilesevent3{
+ 	display: block;
+	width: 70.2%;
+	margin-top: -16.8%;
+	margin-left: 14.4%;
+}
+
+#pevent3{
+	border: 0px solid black;
+	width: 55%;
+	text-align: left;
+	margin: auto;
+	margin-left: 25.5%;
+	transform: translateY(-85%)
+}
+
+#fondevent4{
+	width: 70.2%;
+	display: block;
+	margin: auto;
+}
+
+#photoevent4{
+ 	display: block;
+	margin: auto;
+	width: 70.2%;
+	margin-top: -18.8%
+}
+
+#titreevent4{
+ 	border: 0px solid black;
+	width: 70.2%;
+	text-align: center;
+	margin: auto;
+	margin-left: 6.3%;
+	transform: translateY(-720%);
+	font-size: 1.1em;
+}
+
+#auteurevent4{
+ 	border: 0px solid black;
+	width: 70.2%;
+	text-align: center;
+	margin: auto;
+	margin-left: -2.2%;
+	transform: translateY(-840%);
+	font-size: 0.9em;
+}
+
+#etoilesevent4{
+ 	display: block;
+	width: 70.2%;
+	margin-top: -16.8%;
+	margin-left: 14.4%;
+}
+
+#pevent4{
+	border: 0px solid black;
+	width: 55%;
+	text-align: left;
+	margin: auto;
+	margin-left: 25.5%;
+	transform: translateY(-71%)
+}
+
+ h6{
+	text-align: center;
+	margin-top: 15%;
+	border: 0px solid black;
+	font-size: 0.7em;
+}
+
+#lienphotos{ 
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 1.1em;
+	position: fixed;
+	bottom: 3%;
+	left: 3%;
+}
+
+#pages{ 
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 1.1em;
+	position: fixed;
+	bottom: 3%;
+	right: 3%;
+
+}

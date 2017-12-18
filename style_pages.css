@@ -1,0 +1,339 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:link{
+	color: black;
+}
+
+a:visited{
+	color: #2c2c2c;
+}
+
+h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+header{ 
+width: 100%;
+margin: auto;
+background-color: black;
+}
+
+#contenu{
+	display: flex;
+	justify-content: space-between;
+	height: auto;
+}
+
+ nav{
+ 	width: 15%;
+ 	border: 0px solid black;
+ 	margin-top: 30px;
+ 	height: auto;
+
+ 	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color: black;
+	font-size: 1.1em;
+
+	position: fixed;
+ }
+
+ #pdp{
+ 	width: 60%;
+ 	border: 0px solid black;
+ 	margin: auto;
+	display: block;
+ }
+
+ ul{
+ 	 border: 0px solid black;
+ 	 text-align: center;
+ 	 padding: 5%;
+ }
+
+ li{
+ 	border: 0px solid black;
+ 	padding: 4%;
+ }
+
+ #selected{
+ 	color: #5d5d5d;
+ 	font-weight: bold;
+ }
+
+ #barrenav{
+ 	width: 3.9%;
+ 	margin-top: -173%;
+ 	margin-left: 90%;
+ 	border: 0px solid black;
+ }
+
+ #pages{
+ 	border: 0px solid black;
+ 	width: 84%;
+ 	margin: auto;
+ 	margin-top: 30px;
+ }
+
+ #titrepages{
+ 	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 2.5em;
+	text-align: left;
+	margin-left: 15%;
+	padding-bottom: 1%;
+ }
+
+ article{
+	border: 0px solid black;
+ 	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color: black;
+	font-size: 0.95em;
+	padding-top: 2.5%;
+}
+
+#fondpage1{
+	width: 60%;
+	display: block;
+	margin: auto;	
+}
+
+#photopage1{
+	width: 60%;
+	display: block;
+	margin: auto;
+	margin-top: -32%;
+}
+
+#titrepage1{
+ 	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 2.2em;
+	margin-top: -17.5%;
+	text-align: center;
+}
+
+#etoilespage1{
+ 	display: block;
+	width: 70.2%;
+	margin-top: -19.8%;
+	margin-left: 18.8%;
+}
+
+#pdppage1{
+ 	display: block;
+	width: 70.2%;
+	margin-top: -37%;
+	margin-left: 18.8%;	
+}
+
+#ppage1{
+	border: 0px solid black;
+	width: 43%;
+	text-align: left;
+	margin: auto;
+	margin-left: 29.7%;
+	transform: translateY(-120%)
+}
+
+#fondpage2{
+	width: 60%;
+	display: block;
+	margin: auto;	
+}
+
+#photopage2{
+	width: 60%;
+	display: block;
+	margin: auto;
+	margin-top: -31.2%;
+}
+
+#titrepage2{
+ 	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 2.2em;
+	margin-top: -17.5%;
+	text-align: center;
+}
+
+#etoilespage2{
+ 	display: block;
+	width: 70.2%;
+	margin-top: -18%;
+	margin-left: 18.8%;
+}
+
+#pdppage2{
+ 	display: block;
+	width: 70.2%;
+	margin-top: -39%;
+	margin-left: 18.8%;	
+}
+
+#ppage2{
+	border: 0px solid black;
+	width: 43%;
+	text-align: left;
+	margin: auto;
+	margin-left: 29.7%;
+	transform: translateY(-400%)
+}
+
+#fondpage3{
+	width: 60%;
+	display: block;
+	margin: auto;	
+}
+
+#photopage3{
+	width: 60%;
+	display: block;
+	margin: auto;
+	margin-top: -31.5%;
+}
+
+#titrepage3{
+ 	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 2.2em;
+	margin-top: -17.5%;
+	text-align: center;
+}
+
+#etoilespage3{
+ 	display: block;
+	width: 70.2%;
+	margin-top: -20.9%;
+	margin-left: 18.8%;
+}
+
+#pdppage3{
+ 	display: block;
+	width: 70.2%;
+	margin-top: -36.8%;
+	margin-left: 18.8%;	
+}
+
+#ppage3{
+	border: 0px solid black;
+	width: 43%;
+	text-align: left;
+	margin: auto;
+	margin-left: 29.7%;
+	transform: translateY(-170%)
+}
+
+#fondpage4{
+	width: 60%;
+	display: block;
+	margin: auto;	
+}
+
+#photopage4{
+	width: 60%;
+	display: block;
+	margin: auto;
+	margin-top: -32.2%;
+}
+
+#titrepage4{
+ 	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 2.2em;
+	margin-top: -17.5%;
+	text-align: center;
+}
+
+#etoilespage4{
+ 	display: block;
+	width: 71.2%;
+	margin-top: -20%;
+	margin-left: 18.8%;
+}
+
+#pdppage4{
+ 	display: block;
+	width: 70.2%;
+	margin-top: -38%;
+	margin-left: 18.8%;	
+}
+
+#ppage4{
+	border: 0px solid black;
+	width: 43%;
+	text-align: left;
+	margin: auto;
+	margin-left: 29.7%;
+	transform: translateY(-125%)
+}
+
+ #titrepages{
+ 	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 2.5em;
+	text-align: left;
+	margin-left: 15%;
+	padding-bottom: 1%;
+ }
+
+ h6{
+	text-align: center;
+	margin-top: 15%;
+	border: 0px solid black;
+	font-size: 0.7em;
+}
+
+#lienpages{ 
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 1.1em;
+	position: fixed;
+	bottom: 3%;
+	left: 3%;
+}
